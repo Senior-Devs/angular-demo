@@ -1,0 +1,24 @@
+
+Dependency Injection
+Services - resusable code snippet / HTTP Requests,
+Observables, APIs
+Deployment -- I.P --> Github Pages - Heroku 
+
+Components - Updating, Nesting, input / output property binding
+Directives - structural directives, attribute directives, custom directives
+Pipes
+Event binding
+git@github.com:ms-tutorials/angular-demo.git
+
+npm i angular-cli-ghpages --save-dev
+
+--------
+ng build --base-href https://ms-tutorials.github.io/angular-demo/ 
+npx angular-cli-ghpages --dir=dist/demo-app
+Github Pages - Static
+----------- Cumbersome
+
+Optional
+--------
+Deploy - Heroku - Dynamic
+-----

@@ -7,6 +7,10 @@ import { environment } from './environments/environment';
 if (environment.production) {
   enableProdMode();
 }
+//debug
+// code obfuscation
+// FrontEnd Framework -- Client Side -- Browser -- Developer Tools
+// Source -- Console 
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
